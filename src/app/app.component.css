@@ -1,0 +1,117 @@
+/* setting box-sizing to border box */
+* {
+    box-sizing: border-box;
+}
+
+/* style for title */
+h1{
+    color: darkorange;
+}
+
+/* centering all elements from title to form */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* styling the form */
+form{
+    width: 500px;
+    background: lightgrey;
+    padding: 25px;
+}
+
+/* styling for every label and input in form */
+.form-group{
+    margin: 10px 0;
+}
+
+/* styling for the labels */
+label{
+    display: block;
+}
+
+/* styling for the inputs */
+input[type='number'],
+select{
+    width: 100%;
+    padding: 5px;
+}
+
+/* adding * to each label to represent that they are required */
+label:after{
+    content: '*';
+    color: orange;
+}
+
+
+/* styling dive around button */
+.button {
+    padding: 10px;
+    text-align: center;
+}
+
+/* styling for actual button */
+button{
+    background-color: orange;
+    width: 33%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* styling for error message */
+.validation{
+    color: rgb(204, 109, 0);
+}
+
+/* styling for main section that contains images */
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* styling the images */
+.images img{
+    width: 20%;
+    min-width: 100px;
+    margin: 25px 2px 10px 2px;
+}
+
+.loading {
+    text-align: center;
+}
+
+
+.footer{
+    height: 50px;
+    background-color: orange;
+    color: black;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+
+@media(max-width: 500px){
+    form {
+        width: 350px;
+    }
+
+    .images{
+        flex-direction: column;
+        align-items: center;
+        justify-content: none;
+    }
+
+
+    .images img {
+        width: 50%;
+    }
+}
