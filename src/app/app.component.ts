@@ -39,7 +39,3 @@ export class AppComponent {
   }
 
 }
-
-// add good readmes (make repo for frontend)
-// host
-// turn in and see feedback
