@@ -14,7 +14,7 @@ export class MarsServiceService {
     params = params.append('sol', sol);
     params = params.append('camera', camera)
 
-    return this.http.get<any>(`http://localhost:8080/photos`, {params: params});
+    return this.http.get<any>(`https://mars-backend-a4770247eecf.herokuapp.com//photos`, {params: params});
   }
 
 
