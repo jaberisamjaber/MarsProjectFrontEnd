@@ -72,6 +72,7 @@ button{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-bottom: 15px;
 }
 
 /* styling the images */
@@ -95,7 +96,6 @@ button{
     bottom: 0;
     left: 0;
     width: 100%;
-    margin-top: 10px;
 }
 
 
