@@ -16,3 +16,7 @@ For the front end, I used Angular to create and process the necessary API calls 
 * Calls the backend to fetch the images through a single endpoint
 * enter data into the two input fields and hit find photos
 * makes sure inputs are valid before allowing user to submit
+
+## Build/Deploy
+* run npm run build
+* dist folder will be created. Use that to deploy
